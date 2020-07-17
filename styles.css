@@ -95,7 +95,7 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: yellow;
-  /*inspired by teamtreehous*/
+  /*inspired by teamtreehouse*/
   transition: all 0.5s;
 }
 /*inspired by teamtreehouse*/
@@ -128,10 +128,16 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+  /* inspired by teamtreehouse */
+  transition: all 0.5s;
 }
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+/* inspired by teamtreehouse */
+.skills li:hover {
+  transform: scale(1.3);
 }
 
 footer {
@@ -214,4 +220,7 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+}
+/* Contact Page */
+#message {
 }
