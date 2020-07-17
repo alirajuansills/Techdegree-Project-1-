@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ali Sills | Contact</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav class="main-nav">
@@ -16,31 +20,46 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-
-    <h1>
-      Thank you for taking a peek at my portfolio. Feel free to contact me
-      below.
-    </h1>
-
-    <div>
-      <label for="username"
-        >Name: <abbr title="required" aria-label="required">*</abbr>
-      </label>
-      <input id="username" type="text" name="username" />
-    </div>
-    <div>
-      <label for="email"
-        >Email: <abbr title="required" aria-label="required">*</abbr>
-      </label>
-      <input id="email" type="text" name="email" />
-    </div>
-    <div>
-      <label for="message"
-        >Message: <abbr title="required" aria-label="required">*</abbr>
-      </label>
-      <input id="message" type="text" name="message" />
-    </div>
-
-    <button>Submit</button>
+    <header2 class="profile-image">
+      <img
+        src="images/profile picture.jpg"
+        alt="Headshot of Ali"
+        class="profile-image"
+      />
+      <div class="contact-header">
+        <h1>
+          Thank you for taking a peek at my portfolio.
+        </h1>
+        <h1>Feel free to contact me below.</h1>
+      </div>
+    </header2>
+    <main>
+      <div class="contact-form">
+        <div class="form-name">
+          <p class="contact-name">Name</p>
+          <label for="username"
+            ><abbr title="required" aria-label="required"></abbr>
+          </label>
+          <input id="username" type="text" name="username" />
+        </div>
+        <div>
+          <p class="contact-email">Email</p>
+          <label for="email"
+            ><abbr title="required" aria-label="required"></abbr>
+          </label>
+          <input id="email" type="text" name="email" />
+        </div>
+        <div>
+          <p class="contact-message">Message</p>
+          <label for="message"
+            ><abbr title="required" aria-label="required"></abbr>
+          </label>
+          <input id="message" type="text" name="message" />
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

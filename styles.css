@@ -222,5 +222,86 @@ a.social:hover {
   }
 }
 /* Contact Page */
+/* https://www.w3schools.com/css/css_form.asp */
+/* inspiration: https://mattfarley.ca/contact */
+header2 .profile-image {
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all 0.5s;
+}
+header2 .profile-image:hover {
+  transform: scale(1.3);
+}
+
+.contact-header {
+  padding: 150px;
+  margin: -100px;
+  font-size: large;
+}
+
+.contact-form {
+  margin: -60px;
+}
+
+#username {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+}
+/* https://www.quora.com/What-is-the-easiest-way-to-move-a-text-element-in-CSS */
+.contact-name {
+  position: relative;
+  top: 20px;
+  left: -234px;
+}
+
+#email {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+}
+/* https://www.quora.com/What-is-the-easiest-way-to-move-a-text-element-in-CSS */
+.contact-email {
+  position: relative;
+  top: 20px;
+  left: -236px;
+}
+
 #message {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+/* https://www.quora.com/What-is-the-easiest-way-to-move-a-text-element-in-CSS */
+.contact-message {
+  position: relative;
+  top: 10px;
+  left: -477px;
+}
+/* https://developer.mozilla.org/en-US/docs/Learn/Forms/Styling_web_forms */
+button {
+  margin: 15px 0px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: none;
+  font-size: large;
+  cursor: pointer;
+}
+/* https://www.w3schools.com/css/css3_buttons.asp */
+button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
 }
